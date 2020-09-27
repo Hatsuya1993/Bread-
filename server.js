@@ -10,9 +10,9 @@ process.on("uncaughtException", () => {
   process.exit(1);
 });
 
-// dotenv.config({
-//   path: "./config.env",
-// });
+dotenv.config({
+  path: "./config.env",
+});
 
 // const DB = process.env.DATABASE.replace(
 //   "<PASSWORD>",
