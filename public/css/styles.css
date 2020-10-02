@@ -48,3 +48,20 @@
 }
 
 /* End of review */
+
+/* latest */
+
+.latest-img {
+    height: 200px;
+}
+
+.latest-img-face {
+    height: 40px;
+    width: 20%;
+}
+
+.latest-post a {
+    text-decoration: none;
+}
+
+/* End latest */
