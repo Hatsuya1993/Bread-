@@ -1,14 +1,13 @@
 * {
-    color: black;
-    text-decoration: none;
-    font-family: 'Yanone Kaffeesatz',
-        sans-serif;
+  color: black;
+  text-decoration: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 /* navBar */
 
 .navBar {
-    box-shadow: 0 0px 4px 0px #000000;
+  box-shadow: 0 0px 4px 0px #000000;
 }
 
 /* End of navBar */
@@ -16,13 +15,13 @@
 /* title */
 
 .title-contents {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
 
 /* End of title */
@@ -30,8 +29,13 @@
 /* category */
 
 .category-img {
-    width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.3s linear;
+}
+
+.category-img:hover {
+  transform: scale(1.1);
 }
 
 /* End of category */
@@ -39,12 +43,12 @@
 /* review */
 
 .review-content {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
 }
 
 /* End of review */
@@ -52,16 +56,41 @@
 /* latest */
 
 .latest-img {
-    height: 200px;
+  height: 200px;
+  transition: all 1s linear;
+}
+
+.latest-box:hover .latest-img {
+  transform: scale(1.1);
+}
+
+.latest-img-container {
+  overflow: hidden;
 }
 
 .latest-img-face {
-    height: 40px;
-    width: 20%;
+  height: 40px;
+  width: 20%;
 }
 
 .latest-post a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.latest-box:hover>* {
+  text-decoration: none;
+}
+
+.latest-box:hover .latest-post-title {
+  color: #d1ab7f;
 }
 
 /* End latest */
+
+/* Start breadMenu */
+
+.breadMenu {
+  background: url("../image/pattern-bg.jpg");
+}
+
+/* End breadMenu */
