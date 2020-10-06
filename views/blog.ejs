@@ -1,0 +1,17 @@
+<%- include("partials/header") %> <%- include("partials/navBar") %>
+<%-
+include("partials/title") %> <%-
+include("partials/blog-categories") %>
+<div class="container-md">
+    <div class="row">
+        <div class="col-lg-8">
+            <%-
+include("partials/blog-post") %>
+        </div>
+        <div class="col-lg-4">
+            <%- include("partials/blog-post-side") %>
+        </div>
+    </div>
+</div>
+<%-
+include("partials/about") %> <%- include("partials/footer") %>

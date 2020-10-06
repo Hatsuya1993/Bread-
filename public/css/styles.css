@@ -4,6 +4,10 @@
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
+* a {
+  text-decoration: none !important;
+}
+
 /* navBar */
 
 .navBar {
@@ -14,9 +18,39 @@
 
 /* title */
 
-.title-contents {
+.title-contents-home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.title-contents-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.title-contents-teams {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/3217146/pexels-photo-3217146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.title-contents-blog {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -94,3 +128,78 @@
 }
 
 /* End breadMenu */
+
+/* Start blog-categories */
+
+.blog-categories-1 {
+  background: url("https://images.pexels.com/photos/5081925/pexels-photo-5081925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.blog-categories-1-inner {
+  background-color: black;
+  opacity: 0.8;
+  transition: all 0.3s linear;
+}
+
+.blog-categories-1:hover .blog-categories-1-inner {
+  background-color: burlywood;
+}
+
+.blog-categories-2 {
+  background: url("https://images.pexels.com/photos/2990644/pexels-photo-2990644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.blog-categories-2-inner {
+  background-color: black;
+  opacity: 0.8;
+  transition: all 0.3s linear;
+}
+
+.blog-categories-2:hover .blog-categories-2-inner {
+  background-color: burlywood;
+}
+
+.blog-categories-3 {
+  background: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.blog-categories-3-inner {
+  background-color: black;
+  opacity: 0.8;
+  transition: all 0.3s linear;
+
+}
+
+.blog-categories-3:hover .blog-categories-3-inner {
+  background-color: burlywood;
+}
+
+/* End blog-categories */
+
+/* Start blog-post-img */
+
+.blog-post-img {
+  height: 40vh !important;
+}
+
+/* End blog-post-img */
+
+/* Start blog-post-side */
+
+.blog-post-side-img {
+  height: 10vh !important;
+}
+
+/* End blog-post-side */
