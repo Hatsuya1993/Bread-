@@ -202,4 +202,30 @@
   height: 10vh !important;
 }
 
+.hr-style {
+  border-top: 1px dashed;
+}
+
+.post-categories-content:hover {
+  cursor: pointer;
+}
+
+.post-categories-content:hover p {
+  color: #ffc107;
+}
+
+.post-categories-content:hover hr {
+  color: #ffc107;
+}
+
+.mail-input {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.submit-button:hover {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
 /* End blog-post-side */
